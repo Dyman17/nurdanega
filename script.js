@@ -40,7 +40,10 @@ function checkWin() {
     }
     if (!board.includes('')) {
         gameActive = false;
-        alert('Ничья!');
+        setTimeout(() => {
+            alert("Вы победили!");
+            restartGame();
+        }, 500);
     }
 }
 
