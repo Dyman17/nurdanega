@@ -24,9 +24,15 @@ function checkWin() {
             gameActive = false;
 
             if (board[a] === 'X') {
-                alert('Вы победили!');
+                setTimeout(() => {
+            alert("Вы победили!");
+            restartGame();
+        }, 500);
             } else {
-                alert('Вы проиграли!');
+               setTimeout(() => {
+            alert("Вы проиграли!");
+            restartGame();
+        }, 500);
             }
             
             return;
