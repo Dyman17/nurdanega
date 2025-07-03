@@ -1,2 +1,3 @@
-# nurdanega.io
+# nurdanega
+
 Nurda fck you
