@@ -1,3 +1,0 @@
-# nurdanega
-
-Nurda fck you
